@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+
+<body>
+    <style>
+        svg text {
+            font-family: "DIN Pro";
+            font-weight: bold;
+            font-size: 69px;
+        }
+
+        svg textPath {
+            overflow: visible;
+        }
+    </style>
+    <div style="max-width: 793px; margin: auto;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+            <path id="herz" fill="none"
+                d="M907.2,365.5c-5.8,339.6-367.4,541.8-367.4,541.8,0,0-361.3-202.1-367.1-541.8-1.9-111.3,52.2-192.7,149.6-192.7s218.1,103.7,218.1,103.7c0,0,111-103.7,217.2-103.7s151.4,81.5,149.6,192.7Z" />
+
+            <text dominant-baseline="middle">
+                <textPath style=" fill-opacity: 1" href="#herz" side="right" startOffset="100%">
+                    Herznissagen mit Anna Rosenwasser in Bern, Zürich, Luzern und Basel
+                    <animate attributeName="startOffset" from="100%" to="-100%" dur="30s" repeatCount="indefinite" />
+                </textPath>
+            </text>
+
+            <text dominant-baseline="middle">
+                <textPath style=" fill-opacity: 1" href="#herz" side="right" startOffset="100%">
+                    Herznissagen mit Anna Rosenwasser in Bern, Zürich, Luzern und Basel
+                    <animate attributeName="startOffset" from="100%" to="-100%" dur="30s" begin="15s"
+                        repeatCount="indefinite" />
+                </textPath>
+            </text>
+        </svg>
+    </div>
+</body>
+
+</html>

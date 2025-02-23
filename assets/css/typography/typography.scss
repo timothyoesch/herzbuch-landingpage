@@ -1,0 +1,11 @@
+@use "fonts.scss";
+
+html {
+    font-family: "HAL Four Grotesk";
+    line-height: 1.4;
+    font-size: clamp(0.85rem, 1.04166667vw, 1.3rem);
+}
+
+p+p {
+    margin-top: 1em;
+}

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+    --color-herz: #D989B2;
+    --color-rosa: #EEC6D8;
+    --color-blau: #2B3C69;
+
+    --font-din: "Din Pro", sans-serif;
+    --font-hal: "HAL Four Grotesk", grotesk;
+
+    --leading-line: 1;
+    --leading-minimum: 0.85;
+}
