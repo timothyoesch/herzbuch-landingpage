@@ -1,4 +1,5 @@
-<script setup lang="ts">
+<script setup>
+import { onMounted } from "vue";
 useSeoMeta({
     title: "Herz. Feministische Strategien und queere Hoffnung",
     ogTitle: "Herz. Jetzt Tickets buchen!",
@@ -7,7 +8,9 @@ useSeoMeta({
     ogImage: "/images/og-800.jpg",
     twitterCard: "summary_large_image"
 })
+
 </script>
+
 <template>
     <div>
         <Heroine />

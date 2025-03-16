@@ -22,7 +22,7 @@
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 svg text {
     font-size: 69px;
 }

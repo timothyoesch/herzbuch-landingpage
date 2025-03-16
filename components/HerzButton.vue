@@ -1,14 +1,32 @@
 <script setup>
 import { ArrowLongRightIcon, ChevronRightIcon, ChevronDownIcon } from '@heroicons/vue/16/solid';
+import {onMounted} from 'vue';
 const props = defineProps({
     href: String,
     icon: String,
-    target: String || '_self',
+    target: String,
+    eventCategory: String,
+    eventAction: String,
+    eventName: String
 });
+
+const trackEvent = () => {
+    const tracker = {
+        eventCategory: props.eventCategory || 'Button',
+        eventAction: props.eventAction || 'click',
+        eventName: props.eventName || props.href
+    }
+    window._paq.push(['trackEvent', tracker.eventCategory, tracker.eventAction, tracker.eventName]);
+}
 </script>
 
 <template>
-    <a class="herz-button border-blau flex justify-center" :href="props.href" :target="props.target">
+    <a
+        class="herz-button border-blau flex justify-center"
+        :href="props.href"
+        :target="props.target"
+        v-on:click="trackEvent"
+    >
         <slot></slot>
         <ArrowLongRightIcon class="h-8 lg:h-6" v-if="props.icon == 'arrow-right'"/>
         <ChevronRightIcon class="h-8 lg:h-6" v-if="props.icon == 'chevron-right'"/>

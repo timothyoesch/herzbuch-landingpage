@@ -1,62 +1,73 @@
 [
     {
-        "id": 1,
+        "id": "gaskessel-bern",
         "name": "Herznissage mit Michèle Roten",
         "subtitle": "auch im Livestream",
         "date": "9. April",
         "time": "20:30 Uhr",
-        "soldOut": false,
+        "status": "sold-out",
         "location": "Gaskessel Bern",
         "links": [
             {
                 "name": "Mehr Infos",
-                "href": "https://gaskessel.ch/programm/anna-rosenwasser/"
-            },
-            {
-                "name": "Tickets",
-                "href": "https://www.petzi.ch/en/events/58881-gaskessel-anna-rosenwasser-buchtaufe-herz-i-gaskessel-bern/"
+                "href": "https://gaskessel.ch/programm/anna-rosenwasser/",
+                "eventName": "infos"
             }
         ]
     },
     {
-        "id": 2,
+        "id": "kaufleuten-zuerich",
         "name": "Herznissage mit Jenn Unfug",
         "date": "15. April",
         "time": "20 Uhr",
-        "soldOut": false,
+        "status": "sold-out",
         "location": "Kaufleuten Zürich",
         "links": [
             {
-                "name": "Infos und Tickets",
-                "href": "https://kaufleuten.ch/event/anna-rosenwasser-1/"
+                "name": "Mehr Infos",
+                "href": "https://kaufleuten.ch/event/anna-rosenwasser-1/",
+                "eventName": "infos&tickets"
             }
         ]
     },
     {
-        "id": 3,
+        "id": "schueuer-luzern",
         "name": "Herznissage mit Valentina Achermann",
         "date": "23. April",
         "time": "20 Uhr",
-        "soldOut": false,
+        "status": "default",
         "location": "Schüür Luzern",
         "links": [
             {
                 "name": "Mehr Infos",
-                "href": "https://www.schuur.ch/programm/events/event-details/anna-rosenwasser-23-04-2025-konzerthaus-schuur-luzern"
+                "href": "https://www.schuur.ch/programm/events/event-details/anna-rosenwasser-23-04-2025-konzerthaus-schuur-luzern",
+                "eventName": "infos"
             },
             {
                 "name": "Tickets",
-                "href": "https://www.seetickets.com/ch/event/anna-rosenwasser/konzerthaus-schuur/3291676?PartnerID=116&src=web"
+                "href": "https://www.seetickets.com/ch/event/anna-rosenwasser/konzerthaus-schuur/3291676?PartnerID=116&src=web",
+                "eventName": "tickets"
             }
         ]
     },
     {
-        "id": 4,
+        "id": "humbug-basel",
         "name": "Herznissage mit Freija Geniale",
-        "subtitle": "Links folgen",
         "date": "29. April",
         "time": "20 Uhr",
-        "soldOut": false,
-        "location": "Humbug Basel"
+        "status": "default",
+        "location": "Humbug Basel",
+        "links": [
+            {
+                "name": "Mehr Infos",
+                "href": "https://www.humbug.club/events/humbooks-greater-than-greater-than-herznissage-less-than-less-than-von-anna-rosenwasser",
+                "eventName": "infos"
+            },
+            {
+                "name": "Tickets",
+                "href": "https://www.petzi.ch/en/events/59141-humbug-humbooks-herznissage-von-anna-rosenwasser/tickets/#ticket-101231",
+                "eventName": "tickets"
+            }
+        ]
     }
 ]

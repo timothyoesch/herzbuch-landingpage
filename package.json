@@ -16,6 +16,7 @@
     "sass": "^1.85.0",
     "tailwindcss": "^4.0.8",
     "vue": "latest",
+    "vue-matomo": "^4.2.0",
     "vue-router": "latest"
   }
 }

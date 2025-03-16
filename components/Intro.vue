@@ -12,6 +12,12 @@ const toggleWeiterlesen = () => {
     let weiterlesenDOM = weiterlesen.value
     let icon = weiterlesenDOM.querySelector('svg')
     let text = weiterlesenDOM.querySelector('span')
+    const tracker = {
+        eventCategory: 'Button',
+        eventAction: "Weiterlesen",
+        eventName: ""
+    }
+
     if (!open) {
         blindDOM.animate([
             {
@@ -49,6 +55,7 @@ const toggleWeiterlesen = () => {
         text.innerText = "Weniger lesen"
 
         open = true
+        tracker.eventName = "open"
     } else {
         blindDOM.animate([
             {
@@ -86,7 +93,9 @@ const toggleWeiterlesen = () => {
         text.innerText = "Weiterlesen"
 
         open = false
+        tracker.eventName = "close"
     }
+    window._paq.push(['trackEvent', tracker.eventCategory, tracker.eventAction, tracker.eventName])
 }
 
 </script>

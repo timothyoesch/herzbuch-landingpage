@@ -24,8 +24,20 @@
                 <h1 class="font-din text-blau leading-minimum">Herz.</h1>
                 <h2 class="text-4xl !leading-line mt-4">Feministische Strategien<br>und queere Hoffnung.</h2>
                 <div class="grid lg:grid-cols-2 lg:w-fit gap-x-4 gap-y-2 mt-8">
-                    <HerzButton class="!w-full lg:w-fit" href="https://rotpunktverlag.ch/buecher/herz" icon="arrow-right" target="_blank">Buch bestellen</HerzButton>
-                    <HerzButton class="!w-full lg:w-fit" href="/#herznissagen" icon="chevron-down" >Vernissagen</HerzButton>
+                    <HerzButton
+                        class="!w-full lg:w-fit"
+                        href="https://rotpunktverlag.ch/buecher/herz"
+                        icon="arrow-right" target="_blank"
+                    >
+                        Buch bestellen
+                    </HerzButton>
+                    <HerzButton
+                        class="!w-full lg:w-fit"
+                        href="/#herznissagen"
+                        icon="chevron-down"
+                    >
+                        Vernissagen
+                    </HerzButton>
                 </div>
             </div>
             <div class="herz-heroine__image--desktop col-span-3 mt-12 mb-[-12rem] hidden lg:block">
