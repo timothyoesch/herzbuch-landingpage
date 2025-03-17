@@ -14,7 +14,6 @@
                     srcset="public/images/Book_Mockup-100.png?width=100 100w, public/images/Book_Mockup-200.png?width=200 200w, public/images/Book_Mockup-400.png?width=400 400w, public/images/Book_Mockup-800.png?width=800 800w"
                     sizes="(max-width: 800px) 100vw, 50vw"
                     style="width: 100%; aspect-ratio: 1.25"
-                    loading="lazy"
                     decoding="async"
                     alt="Vorschaubild von «Herz. Feministische Strategien und queere Hoffnung.»"
                 />

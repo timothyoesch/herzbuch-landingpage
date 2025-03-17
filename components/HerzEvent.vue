@@ -9,7 +9,7 @@ const event = ref(props.event);
 </script>
 <template>
     <div class="herz-event py-16 lg:py-10 relative" :class="'herz-event--status-' + event.status">
-        <div class="herz-event__label mb-3" v-if="event.status === 'sold-out' || event.status === 'last-tickets'">
+        <div class="herz-event__label mb-4" v-if="event.status === 'sold-out' || event.status === 'last-tickets'">
             <p class="font-din text-lg italic text-white bg-blau px-4 pt-2 pb-2 rounded-full w-fit">
                 {{ event.status === 'sold-out' ? 'Ausverkauft' : 'Letzte Tickets!' }}
             </p>
